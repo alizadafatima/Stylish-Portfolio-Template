@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+header {
+  width: 100%;
+  height: 650px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-masthead.jpg);
+    padding: 100px 0 0;
+    background-size: cover;
+    background-position: 50% 54%;
+}
+.Stylish{
+    width: 80%;
+    text-align: center;
+    margin:80px auto 0;
+    padding-top: 90px;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+.Stylish h1{
+    font-size: 90px;
+    color: #212529;
+    margin-bottom: 5px;
+}
+.Stylish h3{
+    font-size: 28px;
+    margin-bottom:48px ;
+    color: #212529;
+}
+.Stylish a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: 175px;
+    height: 65px;
+    background-color: #1D809F;
+    margin: auto;
+    line-height: 65px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.lent1{
+    width: 100%;
+    height: 230px;
+    padding: 120px 0 ;
+}
+.stylish1 {
+width: 80%;
+margin: auto;
+text-align: center;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.stylish1 h2{
+    font-size: 32px;
+color: #212529;
+margin-bottom: 8px;
+}
+.stylish1 p {
+    font-size: 20px;
+    margin-bottom: 48px;
+    color: #212529;
+    font-weight: 200;
+}
+.stylish1 .unsplash{
+    color: #1D809F
+}
+.stylish1 .btn{
+    width: 175px;
+    height: 65px;
+    display: block;
+    background-color: #212529;
+    color: white;
+    margin: auto;
+    text-decoration: none;
+    line-height: 65px;
+    border-radius: 4px;
+}
+.lent2 {
+    width: 100%;
+    background-color: #1D809F;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding: 120px 0;
+    text-align: center;
+}
+.lent2 .services h3{
+    color: #ECB807 ;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.lent2 .services h2 {
+    color: #fff;
+    font-size: 48px;
+    margin-bottom: 48px;
+}
+.service-offer{
+    width: 80%;
+    margin: auto;
+}
+.service-offer .items{
+    width: 24%;
+    display: inline-block;
+    vertical-align: top;
+}
+.service-offer .items span{
+    display: block;
+    margin: auto;
+    width: 112px;
+    height: 112px;
+    line-height: 121px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #1D809F;
+}
+.service-offer .items span i{
+    font-size: 36px;
+}
+.service-offer .items strong {font-size: 24px;
+    color: #fff;
+    width: 120;
+    height: 30px;
+  }
+  .service-offer .items p {
+    font-size: 16px;
+    color: #ffffffb3;
+    padding:10px 0;
+  }
+ .lent3 {
+    width: 100%;
+  height: 650px;
+  background-image: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.1) 0%,
+      rgba(255, 255, 255, 0.1) 100%
+    ),
+    url(https://startbootstrap.github.io/startbootstrap-stylish-portfolio/assets/img/bg-callout.jpg);
+    background-size: cover;
+    background-position: 50% 54%;
+ }
+ .lent3 .next-website {
+    padding-top: 200px;
+  }
+  .lent3 .next-website .web{
+    display: block;
+    text-decoration: none;
+    color: white;
+    width: 175px;
+    height: 65px;
+    background-color: #1D809F;
+    margin: auto;
+    line-height: 65px;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+  }
+  .lent3 .next-website h2{
+    font-size: 56px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212529;
+    font-weight: 700;
+    text-align: center;
+    width: 32%;
+    margin:0 auto 50px;
+  }
+
+.lent4{
+    width: 100%;
+    height: 950px;
+    padding: 100px 0;
+}
+.lent4 .portfolio-text h3{
+text-align: center;
+color: #ECB807;
+font-family: 'Source Sans Pro', sans-serif;
+font-size: 16px;
+}
+.lent4 .portfolio-text h2{
+    text-align: center;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #212529;
+    font-size: 48px;
+}
+.container{
+    width: 80%;
+    margin: 50px auto 0px;
+}
+.container .img{
+    width: 50%;
+    height: 400px;
+    margin: -4px -2px;
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    clip-path: inset(0px);
+    transition: 0.7s;
+}
+.container .img:hover{
+    clip-path: inset(30px);
+}
+.container .img:hover .hover{
+    background-color: #1d819fcf;
+}
+.container .img img{ 
+    width: 100%;
+    height: 100%;
+}
+.container .hover{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    transition: 0.7s;
+}
+.img-text{
+    position: absolute;
+    bottom: 0;
+    margin: 50px;
+}
+.img-text h2{
+    font-size: 12.8px;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 1.2;
+    margin: 0px 0px 8px;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+.img-text p{
+    font-weight: 300;
+    font-size: 1.2rem;
+    font-family: 'Source Sans Pro', sans-serif; 
+}
+.lent5{
+    width: 100%;
+    padding: 120px 0;
+    background-color: #1D809F;
+}
+.lent5 .the{
+    text-align: center;
+    
+}
+.lent5 .the h2{
+    font-size: 32px;
+    color: #fff;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    padding: 20px; 
+    margin: 0px 0px 24px;
+}
+.lent5 .the .same{
+    display: inline-block;
+    text-decoration: none;
+    width: 175px;
+    height: 65px;
+    line-height: 65px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+.lent5 .the .one{
+    color: black;
+    background-color: #fff;
+    margin-right: 24px;
+}
+.lent5 .the .two{
+    color: #fff;
+    background-color: black;
+}
+iframe{
+    width: 100%;
+    height: 450px;
+}
+
+.lent7{
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+} 
+.lent7 .item{
+    margin-bottom: 48px;
+}
+.lent7 .item .one{
+    display: inline-block;
+    width: 64px;
+    height: 64px;
+    line-height: 65px;
+    border-radius: 50%;
+    background-color:#1D809F;
+    color: #fff;
+    text-align: center;
+}
+.lent .item .one i{
+    font-size: 16px;
+}
+.lent7 p{
+    color: #6C757D;
+    font-size: 16px;
+    font-family:'Source Sans Pro', sans-serif; 
+}
